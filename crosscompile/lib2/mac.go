@@ -1,0 +1,8 @@
+//go:build darwin
+package lib2
+
+import "fmt"
+
+func Helper()  {
+	fmt.Println("this is mac")
+}
