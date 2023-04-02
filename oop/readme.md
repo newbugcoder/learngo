@@ -1,0 +1,1 @@
+面向对象有三个特性：封装（Encapsulation）、继承（Inheritance）和多态（Polymorphism）
