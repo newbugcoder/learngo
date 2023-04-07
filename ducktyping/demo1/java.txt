@@ -1,0 +1,21 @@
+// pkga
+public interface MyInterface {
+    void doSomething();
+}
+
+class MyClass {
+    public void test(MyInterface m) {
+        m.doSomething();
+    }
+}
+
+// pkgb
+class ClassB implements MyInterface {
+    public void doSomething() {
+        System.out.println("ClassB");
+    }
+}
+
+// 调用者
+classB := new ClassB()
+(new MyClass()).test(classB)
